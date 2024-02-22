@@ -1,0 +1,25 @@
+
+
+.container{
+    text-align: center;
+}
+.nput{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.put{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+.buton{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    font-size: 15px;
+}
