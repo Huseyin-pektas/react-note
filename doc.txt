@@ -1,0 +1,20 @@
+Telefon Rehberi
+
+A. Dipendencies:
+  --> fake api olarak json- server kullanılacak
+  --> api ile iletişim için axios kullanılacak
+  --> sayfalama yapısı için react-router kullanılacak,
+  --> uı kütüphanesi olarak bootsrap kullanılacak()
+
+B.İŞLEYİŞ
+--> bootsrap dahil edildi.
+--> json server için veri yapısı ve port sysrlsndo
+--> sayfalama yapısına gecildi.(react-router-dom için alt yapısı hazırlandı)
+--> genel bir header komponenti hazırlamak +
+
+
+C. Uygulamanın kuralları
+1) Anasayfada bütün kişiler listelenecek
+2) anasayfada bulunan bir buton vasıtasıyla kişi 
+   ekleme sayfasına gidilecek.kişi ekleme başarılı olduktan sonra 
+   anasayfaya dönülecek.

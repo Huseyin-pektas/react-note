@@ -7,10 +7,10 @@
     display:flex ;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
 }
 .put{
-    padding: 8px;
+    padding: 5px 4px;
     border-radius: 10px;
     border: none;
 }
