@@ -7,7 +7,7 @@ const ListKisi = ({ kisi }) => {
     return (
         <div className="container my-5">
             <div className="d-flex justify-content-end">
-            <Link to ={"/kisiEkle"} className="btn btn-success">Kişi ekle</Link>
+                <Link to={"/kisiEkle"} className="btn btn-success">Kişi ekle</Link>
 
             </div>
             <table className="table">
@@ -19,6 +19,7 @@ const ListKisi = ({ kisi }) => {
                         <th scope="col">Numarası</th>
                         <th scope="col">Şehri</th>
                         <th scope="col">Y.Derecesi</th>
+                        <th scope="col">İşlemler</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -38,6 +39,12 @@ const ListKisi = ({ kisi }) => {
                                             <td>{item.kisiNumber}</td>
                                             <td>{item.kisiŞehri}</td>
                                             <td>{item.yakinlikDerecesi}</td>
+                                            <td>
+                                                <div className="  p-2 gap-2 d-flex justify-content-start " >
+                                                    <button type="button" className="btn btn-sm btn-danger rounded-3">Sil</button>
+                                                    <button type="button" className="btn btn-sm btn-warning rounded-3">Güncelle</button>
+                                                </div>
+                                            </td>
                                         </tr>
                                     ))}
                             </>

@@ -1,29 +1,44 @@
-
 {
-    "kisi":[
-        {
-            "id":"1",
-            "firstName":"Ahmet",
-            "lastName":"Pektas",
-            "kisiNumber":"0 532 755 34 22",
-            "kisiŞehri":"Hatay",
-            "yakinlikDerecesi":"Aile"
-        },
-        {
-            "id":"2",
-            "firstName":"Mehmet",
-            "lastName":"Pektas",
-            "kisiNumber":"0 544 755 34 22",
-            "kisiŞehri":"Diyarbakir",
-            "yakinlikDerecesi":"Akraba"
-        },
-        {
-            "id":"3",
-            "firstName":"Mert",
-            "lastName":"Yildiz",
-            "kisiNumber":"0 544 755 34 22",
-            "kisiŞehri":"Diyarbakir",
-            "yakinlikDerecesi":"Arkadaş"
-        }
-    ]
+  "kisi": [
+    {
+      "id": "1",
+      "firstName": "Ahmet",
+      "lastName": "Pektas",
+      "kisiNumber": "0 532 755 34 22",
+      "kisiŞehri": "Hatay",
+      "yakinlikDerecesi": "Aile"
+    },
+    {
+      "id": "2",
+      "firstName": "Mehmet",
+      "lastName": "Pektas",
+      "kisiNumber": "0 544 755 34 22",
+      "kisiŞehri": "Diyarbakir",
+      "yakinlikDerecesi": "Akraba"
+    },
+    {
+      "id": "3",
+      "firstName": "Mert",
+      "lastName": "Yildiz",
+      "kisiNumber": "0 544 755 34 22",
+      "kisiŞehri": "Diyarbakir",
+      "yakinlikDerecesi": "Arkadaş"
+    },
+    {
+      "id": "1709577121458",
+      "firstName": "Hüseyin ",
+      "lastName": "Pektaş ",
+      "kisiNumber": "655",
+      "kisiŞehri": "reyhanlı",
+      "yakinlikDerecesi": "aile"
+    },
+    {
+      "id": "1709755102569",
+      "firstName": "seyhan",
+      "lastName": "deveci",
+      "kisiNumber": "53563464345",
+      "kisiŞehri": "taraklı",
+      "yakinlikDerecesi": "hiçbiri"
+    }
+  ]
 }
